@@ -21,7 +21,6 @@ li{
 
 /* base styles */
 body ,body img {
-    /* max-width: 375px; */
     font-family: var(--OpenSans);
 }
 
@@ -29,6 +28,7 @@ header {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     background-image: url(./images/bg-hero-mobile.svg);
+    background-size: cover;
     background-color: rgba(173, 216, 230, 0.356);
     padding: 2rem;
 }
